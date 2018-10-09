@@ -27,6 +27,7 @@ import resources
 # Import the code for the dialog
 from current_location_dialog import CurrentLocationDialog
 import os.path
+import load_point
 
 
 class CurrentLocation:
@@ -190,4 +191,4 @@ class CurrentLocation:
         if result:
             # Do something useful here - delete the line containing pass and
             # substitute with your code.
-            pass
+            load_point()
